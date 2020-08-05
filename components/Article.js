@@ -86,7 +86,15 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Fantastic Beasts 3',
+    date: 'November 12th, 2021',
+    firstParagraph: "Fantastic Beasts: The Crimes of Grindelwald continued The Wizarding World of Harry Potter in 2018, but wasn't exactly a hit. Poor reviews and the worst box-office result of the entire series were probably not what Warner Bros was hoping for when it planned a five-movie series for Fantastic Beasts... so will we end up getting all five films?",
+    secondParagraph: "At the moment, it seems that way, as Warner Bros is confident that it knows how to make the third movie a success, with Rowling having an 'incredible vision of where she wants to go' with the whole series.",
+    thirdParagraph: "Warner Bros will release the third movie on November 12, 2021, with filming due to start in spring 2020. Star Dan Fogler said the change is because they needed 'more time to prep'."
   }
+
 ];
 
 /*
@@ -155,3 +163,4 @@ data.forEach(articleObj => {
   const theArticle = articleMaker(articleObj)
 articles.appendChild(theArticle)
 })
+
